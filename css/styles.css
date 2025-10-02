@@ -32,3 +32,50 @@ section {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+label {
+  margin-bottom: 5px;
+  font-weight: normal;
+  min-width: 48%;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="fname"], input[type="lname"], input[type="email"], input[type="message"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000000ff;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+textarea {
+  min-width: 93%;
+  height: 80px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #000000ff;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: rgb(6, 255, 131);
+	  margin: 0;
+  padding: 20px;
+  font-weight: 200;
+}
+
+p {
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: #191818;
+}
